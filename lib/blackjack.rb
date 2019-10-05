@@ -58,7 +58,7 @@ end
 
 def runner(total = 0)
   welcome
-  binding.pry
+  # binding.pry
   total += initial_round
   prompt_user
   user_input = get_user_input
