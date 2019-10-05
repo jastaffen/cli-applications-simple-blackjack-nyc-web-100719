@@ -68,13 +68,14 @@ def runner
     display_card_total(total)
   else
     end_game(total)
-  if user_input == 's'
-    display_card_total(total)
-  else
-    until total > 21 do
-      total += hit?(total)
-      display_card_total(total)
-    end
   end
-  end_game(total)
+  # if user_input == 's'
+  #   display_card_total(total)
+  # else
+  #   until total > 21 do
+  #     total += hit?(total)
+  #     display_card_total(total)
+  #   end
+  # end
+  # end_game(total)
 end
