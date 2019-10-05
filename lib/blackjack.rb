@@ -63,11 +63,15 @@ def runner
   total += initial_round
   prompt_user
   user_input = get_user_input
+  if total <= 21 
+    total += hit?(total)
+    display_card_total(total)
+  else
+    end_game(total)
   if user_input == 's'
     display_card_total(total)
   else
     until total > 21 do
-      binding.pry
       total += hit?(total)
       display_card_total(total)
     end
