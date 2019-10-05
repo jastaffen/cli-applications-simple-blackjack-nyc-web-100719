@@ -67,6 +67,7 @@ def runner
     display_card_total(total)
   else
     until total > 21 do
+      binding.pry
       total += hit?(total)
       display_card_total(total)
     end
