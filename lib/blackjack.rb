@@ -78,4 +78,3 @@ end
   #   end
   # end
   # end_game(total)
-end
