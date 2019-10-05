@@ -63,7 +63,7 @@ def runner
   total += initial_round
   prompt_user
   user_input = get_user_input
-  if total <= 21 
+  if total <= 21
     total += hit?(total)
     display_card_total(total)
   else
