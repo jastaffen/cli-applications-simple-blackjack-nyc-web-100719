@@ -56,7 +56,8 @@ end
 # get every test to pass before coding runner below #
 #####################################################
 
-def runner(total = 0)
+def runner
+  total = 0
   welcome
   # binding.pry
   total += initial_round
