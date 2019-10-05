@@ -66,9 +66,9 @@ def runner
   while total <= 21 do
     hit?(total)
     display_card_total(total)
-  else
-    end_game(total)
   end
+  end_game(total)
+end
   # if user_input == 's'
   #   display_card_total(total)
   # else
