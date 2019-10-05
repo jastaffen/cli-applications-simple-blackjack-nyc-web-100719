@@ -57,7 +57,6 @@ end
 #####################################################
 
 def runner
-  total = 0
   welcome
   # binding.pry
   total = initial_round
